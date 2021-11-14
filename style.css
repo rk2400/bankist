@@ -187,8 +187,11 @@ nav {
   color: #66c873;
 }
 
-.summary__value--out {
+.summary__value--out,.summary__value--loanInterest {
   color: #f5465d;
+}
+.summary__value--loan{
+  color: #ffb003;
 }
 
 .btn--sort {
