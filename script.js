@@ -51,22 +51,7 @@ const account3 = {
   locale: 'en-IN',
 };
 
-const account4 = {
-  owner: 'Ranjana',
-  movements: [10, -200],
-  loan: [1000],
-  loanInterest: 6,
-  interestRate: 1.8,
-  pin: 1451,
-  movementsDates: [
-    '2021-11-01T13:15:33.035Z',
-    '2021-11-30T09:48:16.867Z',
-  ],
-  currency: 'INR',
-  locale: 'en-IN',
-};
-
-const accounts = [account1, account2, account3, account4];
+const accounts = [account1, account2, account3];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
@@ -225,7 +210,7 @@ const startLogOutTimer = function () {
   };
 
   // Set time to 5 minutes
-  let time = 300;
+  let time = 30;
 
   // Call the timer every second
   tick();
